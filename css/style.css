@@ -184,6 +184,9 @@ nav {
 .bg-blue {
     background-color: #2867B2;
 }
+.bg-red {
+    background-color: #B23121;
+}
 
 .badge-info {
     background-color: #2867B2 !important;
