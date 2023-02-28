@@ -427,3 +427,9 @@ figure {
 .see-more {
     color: #6c757d;
 }
+.see-more:hover {
+    color: #fff;
+}
+.see-more:active {
+    color: #fff;
+}
