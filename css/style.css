@@ -419,3 +419,7 @@ a {
     padding: 30px 0;
     background-color: #f5f5f5;
 }
+
+figure {
+    margin-bottom: 1.5rem;
+}
