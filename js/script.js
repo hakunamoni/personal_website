@@ -14,4 +14,25 @@ $(document).ready(function () {
         // uncomment below for on-scroll animations to played only once
         // once: true
     }); // initialize animate on scroll library
+
+    $(".show-more button").click(function(event) {
+        var $this = $(this); 
+        var $content = $this.parent().prev("div.gallery");
+        var linkText = $this.text().toUpperCase();    
+        console.log("$content", $content);
+        
+        if(linkText === "SHOW MORE"){
+            linkText = "Show less";
+            // $content.switchClass("hideContent", "showContent", 400);
+            $content.removeClass("hideContent");
+            $content.addClass("showContent");
+        } else {
+            linkText = "Show more";
+            // $content.switchClass("showContent", "hideContent", 400);
+            $content.removeClass("showContent");
+            $content.addClass("hideContent");
+        };
+    
+        $this.text(linkText);
+    });
 });

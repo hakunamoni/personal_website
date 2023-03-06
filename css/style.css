@@ -301,7 +301,8 @@ a {
 }
 
 .gallery figure.cc-effect .h4 {
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 3%;
     -webkit-transition: -webkit-transform 0.35s;
     transition: -webkit-transform 0.35s;
     transition: transform 0.35s, -webkit-transform 0.35s;
@@ -323,7 +324,7 @@ a {
 .gallery figure.cc-effect p,
 .gallery figure.cc-effect button {
     padding: 0.5em 2em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 1px;
     -webkit-transition: -webkit-transform 0.35s;
     transition: -webkit-transform 0.35s;
@@ -383,7 +384,7 @@ a {
 
 .img-raised {
     -webkit-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
 .copyleft {
@@ -424,12 +425,23 @@ figure {
     margin-bottom: 1.5rem;
 }
 
-.see-more {
+.see-more, .see-more:hover, .see-more:active{
     color: #6c757d !important;;
 }
-.see-more:hover {
+/* .see-more:hover {
     color: #fff !important;;
 }
 .see-more:active {
     color: #fff !important;;
+} */
+
+.hideContent {
+    overflow: hidden;
+    line-height: 1em;
+    height: 24em;
+}
+
+.showContent {
+    line-height: 1em;
+    height: auto;
 }
